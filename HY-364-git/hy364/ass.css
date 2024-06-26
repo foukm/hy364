@@ -1,0 +1,401 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@font-face {
+    src: url(TYSerif-D/TYSerif-D.ttf);
+    font-family: nos;
+}
+.logo
+{
+   
+    font-family: nos;
+    font-weight:normal;
+    font-size: 400%;
+}
+.first
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    font-weight: 100;
+    width: 99.5%;
+    height: fit-content;
+    padding-left: 2%;
+    padding-right: 1%;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    background-size: cover;
+    background-color: black;
+}
+.center {
+    width: 98%;
+    height: auto;    
+}
+.btn{
+    position: absolute;
+    background-color: black;
+    margin: 4px 2px;
+    padding:10px 25px;
+    color:white;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 30px;
+    right: 4%;
+}
+
+.second
+{
+    background-color:white;
+    height: fit-content;
+    padding-left: 10%;
+    padding-right: 1%; 
+}
+
+.whoIam
+{
+    font-family: Arial, sans-serif;
+    font-weight:500;
+    padding-top: 30%;
+    font-size: 150%;
+}
+
+
+.second.div
+{
+    display: grid;
+    color: white;
+}
+.one
+{
+    
+    float: left;
+}
+.two
+{
+    float: right;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    text-align: right;
+}
+
+#third
+{
+    background-color: #c0dbbb;
+    width: 100%;
+    height:fit-content;
+    display: grid;
+    padding: 5%;
+    padding-right: 0%;
+    row-gap: 0%;
+    grid-template-areas: 
+        "a b h"
+        "a c g"
+        "a d k"
+        "a e l"
+        "a f m";
+    column-gap: 2%;
+}
+#t2025
+{
+    grid-area: b;
+    font-size: 130%;
+    font-weight: bolder;
+    text-align: right;
+    float: left;
+}
+
+
+
+.chief
+{
+    font-family: Arial, Helvetica, sans-serif;
+    grid-area: h;
+    text-align: left;
+    padding-bottom: 15%;
+}
+
+.creative_lead
+{
+    font-family: Arial, Helvetica, sans-serif;
+    grid-area: g;
+    text-align: left;
+    padding-bottom: 35%;
+}
+.senior_designer
+{
+    font-family: Arial, Helvetica, sans-serif;
+    grid-area: k;
+    text-align: left;
+    padding-bottom: 15%;
+}
+.junior_interior_designer
+{
+    font-family: Arial, Helvetica, sans-serif;
+    grid-area: l;
+    text-align: left;
+    padding-bottom: 30%;
+}
+
+#t2022
+{
+    grid-area: c;
+    font-size: 130%;
+    font-weight: bolder;
+    text-align: right;
+    float: left;
+}
+
+#t2020
+{
+    grid-area: d;
+    font-size: 130%;
+    font-weight: bolder;
+    text-align: right;
+    float: left;
+}
+
+#t2015
+{
+    grid-area: e;
+    font-size: 130%;
+    font-weight: bolder;
+    text-align: right;
+    float: left;
+}
+
+.fourth
+{
+    width: 99.5%;
+    background-color: black;
+    color: white;
+    height:100%;
+    display: grid;
+    row-gap: 0%;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    padding-left: 3%;
+    padding-right: 5%;
+    grid-template-areas: 
+    "a a a"
+    "b c d"
+    "e f g"
+    "h j w"
+    "k l m"
+    "n o p"
+    "q r s";
+}
+
+#five_s
+{
+    width: 99.5%;
+    height:fit-content;
+    background-color:white ;
+    color: black;
+    display: grid;
+    row-gap: 3%;
+    padding-bottom: 20%;
+    padding-top: 8%;
+    padding-left: 3%;
+    padding-right: 5%;
+    grid-template-areas: 
+        "a ac ac ac"
+        "z b b b"
+        "z c h n"
+        "z d j o"
+        "z e e e"
+        "z f l q"
+        "z g m r";
+}
+.f_title
+{
+    
+    font-size: 455%;
+    font-weight: 100;
+    font-weight: 100;
+}
+
+.f_f_h5
+{
+    align-self: flex-end;
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+.f_f_h6
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 0%;
+    font-weight: 100;
+    font-size: 100%;
+}
+.f_f_p
+{
+    font-weight: 100;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.six_s
+{
+    width: 99.5%;
+    height:150%;
+    display: grid;
+    gap: 0%;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    padding-left: 3%;
+    padding-right: 5%;
+    grid-template-areas: 
+    "a a a"
+    "b c d"
+    "e f g"
+    "h j w"
+    "k l m"
+    "n o p"
+    "q r s";
+}
+
+#seven
+{
+    width: 99.5%;
+    background-color: black;
+    color: white;
+    height:fit-content;
+    display: grid;
+    row-gap: 0%;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    padding-left: 3%;
+    padding-right: 5%;
+    grid-template-areas: 
+    "a b"
+    "a e"
+    "a f"
+    "c d"
+    "c w"
+    "c v";
+}
+.dialog
+{
+    font-size: 245%;
+    text-align: left;
+}
+.dialog1
+{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 130%;
+}
+.dialog2
+{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 100%;
+}
+.details_for_them
+{
+    padding: 0%;
+}
+#eight
+{
+    background-color: #c0dbbb;
+    color: #20372f;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    padding-left: 3%;
+    padding-right: 5%;
+    grid-template-areas: 
+    "a"
+    "b"
+    "c";
+}
+.image{
+    width: auto;
+}
+.anim img{
+
+    transform: scale(1);
+    transition: 0.3s ease-in;
+}
+.anim:hover img{
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width: 1366px) {
+    .imag
+    {
+        width: 70%;
+    }
+    .image
+    {
+        width: 90%;
+        padding-bottom: 1%;
+        padding-left: 10%;
+        text-align: center;
+    }
+    #five_s
+    {
+        display: block;
+        padding-bottom: 3%;
+        padding-left: 3%;
+    }
+    
+    .dialog
+    {
+        font-size: 100%;
+    }
+    .dialog1
+    {
+        font-size: 70%;
+    }
+    .dialog2
+    {
+        font-size: 50%;
+    }
+    .f_title
+    {
+        font-size: 400%;
+    }
+    .f_f_h5
+    {
+        font-size: 70%;
+    }
+    .f_f_h6
+    {
+        font-size: 55%;
+    }
+    .fourth
+    {
+        width: 99.5%;
+    background-color: black;
+    color: white;
+    height:200%;
+    display: grid;
+    row-gap:1%;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    padding-left: 3%;
+    padding-right: 5%;
+    grid-template-areas: 
+    "a a a"
+    "b c d"
+    "e f g"
+    "h j w"
+    "k l m"
+    "n o p"
+    "q r s";
+    }
+    
+    .six_s
+    {
+        display: inline;
+    }
+    
+    #third
+    {
+        display: block;
+    }
+    
+}
